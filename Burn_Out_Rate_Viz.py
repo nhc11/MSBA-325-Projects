@@ -9,8 +9,8 @@ chart_studio.tools.set_credentials_file(username='nhc11', api_key='JfKd8qsoY3BSR
 
 #load data and clean from N/a
 
-df = pd.read_csv("C:/Users/nohra/OneDrive/Documents/AUB/Courses/MSBA 325/Assignments/Assignment 2/archive/Employee Burn Out Rate.csv")
-
+#df = pd.read_csv("C:/Users/nohra/OneDrive/Documents/AUB/Courses/MSBA 325/Assignments/Assignment 2/archive/Employee Burn Out Rate.csv")
+df = pd.read_csv("C:/Users/nohra/American University of Beirut - MSBA/pythonProject1/Employee Burn Out Rate.csv")
 # df = df.drop(df.index[15001:25000],0)
 df = df.dropna()
 
